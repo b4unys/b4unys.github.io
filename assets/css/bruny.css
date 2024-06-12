@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 2px solid #000;
+    border: 3px solid #fff;
     object-fit: cover;
 }
 
@@ -36,7 +36,7 @@ h5 {
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #ddd;
-    background-color: #fff;
+    background-color: #262626;
 }
 
 .button-container {
@@ -53,30 +53,10 @@ button {
     font-size: 1.2em;
     cursor: pointer;
     transition: 0.3s ease;
+    border-radius: 10px;
 }
 
 button:hover {
     background-color: #fff;
     color: #000;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-}
-
-footer .left {
-    margin-left: 10px;
-}
-
-footer .right {
-    margin-right: 10px;
-    cursor: pointer;
-    text-decoration: underline;
 }
