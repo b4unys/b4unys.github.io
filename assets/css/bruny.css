@@ -36,8 +36,9 @@ h5 {
 .stats-board {
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     background-color: #262626;
+    border-radius: 10px;
 }
 
 .button-container {
